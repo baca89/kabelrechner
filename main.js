@@ -1,7 +1,6 @@
 const rhoKupfer = 56;
-
-// TODO übrige Normquerschnitte einfügen [Datenpflege]
-const normQuerschnitte = [1, 1.5, 2.5, 4];          
+const rhoAlu = 37;
+const normQuerschnitte = [1, 1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240, 300];          
 
 var kabel={
     laenge          :   0,
@@ -20,7 +19,7 @@ var kabel={
 
 
 function calcSpannungsfall(){
-    //   TODO Berechnung des Spannungsfalls einfügen [bug]
+    return (2*kabel.laenge*kabel.strom*kabel.cosPhi)/(rhoKupfer*kabel.spannungsfall.erlaubt*kabel.spannung);
 }
 
 function getNextSection(quer){
