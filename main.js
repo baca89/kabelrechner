@@ -17,3 +17,7 @@ var kabel={
     }
     }
 //TODO: Berechnung einfügen
+
+function calcSpannungsfall(){
+    //TODO füllen mit leben
+}
