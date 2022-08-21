@@ -42,7 +42,7 @@ jobs:
 
 
       - name: Deploy to GitHub Pages
-        uses: jamesIves/github-pages-deploy-action@v4.3.0
+        uses: jamesIves/github-pages-deploy-action@v4.4.0
         with:
           branch: gh-pages
           folder: dist
