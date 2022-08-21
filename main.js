@@ -1,6 +1,6 @@
 const rhoKupfer = 56;
 
-const normQuerschnitte = [1, 1.5, 2.5, 4];          //TODO Normquerschnitte auffüllen
+const normQuerschnitte = [1, 1.5, 2.5, 4];          // TODO  -> Normquerschnitte auffüllen
 
 var kabel={
     laenge          :   0,
@@ -19,9 +19,9 @@ var kabel={
 
 //TODO Berechnung einfügen für Querschnitt
 function calcSpannungsfall(){
-    //...TODO Function calcSpannungsfall mit Inhalt füllen
+    //TODO Function calcSpannungsfall mit Inhalt füllen
 }
 
 function getNextSection(quer){
-    //... TODO Funktion getNextNorm mit Inhalt füllen
+    // TODO Funktion getNextNorm mit Inhalt füllen
 }
