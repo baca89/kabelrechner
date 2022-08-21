@@ -1,5 +1,6 @@
 const rhoKupfer = 56;
-//TODO Variable mit Normquerschnitten anlegen
+//TODO Variable mit Normquerschnitten erweitern
+const normQuerschnitte = [1, 1.5, 2.5, 4];
 
 
 var kabel={
