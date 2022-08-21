@@ -1,0 +1,37 @@
+{
+    "name": "kabelrechner",
+    "version": "0.0.1",
+    "description": "KAbelrechner zur auslegung von Kabeln und LEitungen",
+    "author": {
+      "name": "Carsten Bauer",
+      "email": "home-system@magenta.de"
+    },
+    "homepage": "https://github.com/baca89/kabelrechner",
+    "license": "MIT",
+    "keywords": [
+      "Elektro",
+      "Kabel",
+      "Leitungen"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/baca89/kabelrechner.git"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "dependencies": {
+      
+    },
+    "devDependencies": {
+      
+    },
+    "main": "main.js",
+    "files": [
+    
+      "LICENSE",
+      "main.js"
+    ],
+    
+    "readmeFilename": "README.md"
+  }
