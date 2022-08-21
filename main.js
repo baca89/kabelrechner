@@ -1,6 +1,7 @@
 const rhoKupfer = 56;
 
-const normQuerschnitte = [1, 1.5, 2.5, 4];          // TODO  -> Normquerschnitte auffüllen
+// TODO übrige Normquerschnitte einfügen [Datenpflege]
+const normQuerschnitte = [1, 1.5, 2.5, 4];          
 
 var kabel={
     laenge          :   0,
@@ -17,11 +18,11 @@ var kabel={
     }
     }
 
-//TODO Berechnung einfügen für Querschnitt
+
 function calcSpannungsfall(){
-    //TODO Function calcSpannungsfall mit Inhalt füllen
+    //   TODO Berechnung des Spannungsfalls einfügen [bug]
 }
 
 function getNextSection(quer){
-    // TODO Funktion getNextNorm mit Inhalt füllen
+    //  TODO Funktion für nächsthöheren Normquerschnitt fehlt [feature]
 }
