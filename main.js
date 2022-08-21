@@ -21,3 +21,7 @@ var kabel={
 function calcSpannungsfall(){
     //TODO füllen mit leben
 }
+
+function getNextSection(quer){
+    //TODO Funktion getNextSection füllen
+}
