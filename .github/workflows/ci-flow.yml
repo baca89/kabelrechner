@@ -27,7 +27,7 @@ jobs:
     strategy:
       matrix:
         node-version: [14.x, 16.x, 18.x]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -39,10 +39,3 @@ jobs:
 
       - name: tag-version
         uses: juliansangillo/tag-version@v1.5
-
-
-      - name: Deploy to GitHub Pages
-        uses: jamesIves/github-pages-deploy-action@v4.3.0
-        with:
-          branch: gh-pages
-          folder: dist
