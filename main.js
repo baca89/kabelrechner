@@ -47,6 +47,23 @@ class kabelrechner{
     calcSpannungsfall() {
         this.kabel.querschnitt=(2*this.kabel.laenge*this.kabel.strom*this.kabel.cosPhi)/(rhoKupfer*this.kabel.spannungfall*this.kabel.spannung)
     }
-//TODO: Berechnung erweitern
+
 }
 
+const rhoKupfer = 56;
+
+var kabel={
+    laenge          :   0,
+    strom           :   0,
+    spannung        :   0,
+    cosPhi          :   0,
+    spannungsfall   :   {
+        erlaubt     :   0,
+        berechnet   :   0
+    },
+    querschnitt     :   {
+        berechnet   :   0,
+        norm        :   0
+    }
+    }
+//TODO: Berechnung einfügen
