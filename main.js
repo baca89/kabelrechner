@@ -24,5 +24,10 @@ function calcSpannungsfall(){
 }
 
 function getNextSection(quer){
-    //  TODO Funktion für nächsthöheren Normquerschnitt fehlt [feature]
-}
+    
+    for ( querschnitt in normQuerschnitte) {
+        if (querschnitt>quer){
+            return querschnitt
+        }  
+        }
+    }
