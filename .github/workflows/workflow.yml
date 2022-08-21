@@ -51,7 +51,7 @@ jobs:
           test-branch: test  
           dev-branch: develop 
 
-    - uses: "actions/checkout@master"
+    #- uses: "actions/checkout@master"
     - name: "TODO to Issue"
       uses: "alstr/todo-to-issue-action@v4.6.8"
       id: "todo"
