@@ -23,7 +23,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Abhängigkeiten installieren
-      run: npn i
+      run: npm i
 
     - name: tag-version
       uses: juliansangillo/tag-version@v1.5
