@@ -1,6 +1,17 @@
 const rhoKupfer = 56;
 const rhoAlu = 37;
 const normQuerschnitte = [1, 1.5, 2.5, 4, 6, 10, 16, 25, 35, 50, 70, 95, 120, 150, 185, 240, 300];          
+const express = require("express");
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  
+  app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+  })
 
 var kabel={
     laenge          :   0,
